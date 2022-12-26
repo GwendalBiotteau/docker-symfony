@@ -29,7 +29,7 @@ You can now build the Docker containers (use Makefile commands if Make is instal
 Then run the containers to start the project:  
 `make start` or `docker-compose --env-file ./.env.local up -d`
 
-*Note: it is also possible for Linux users to use this command to stop apache and mysql services before running: *  
+*Note: it is also possible for Linux users to use this command to stop apache and mysql services before running:*  
 `make full-start` or `sudo systemctl stop apache2.service && sudo systemctl stop mysql.service && docker-compose --env-file ./.env.local up -d`
 
 **Your symfony project is no available and running on `http://localhost` url (`http://127.0.0.1`)!**
