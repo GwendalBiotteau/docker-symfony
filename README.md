@@ -32,7 +32,7 @@ Then run the containers to start the project:
 *Note: it is also possible for Linux users to use this command to stop apache and mysql services before running:*  
 `make full-start` or `sudo systemctl stop apache2.service && sudo systemctl stop mysql.service && docker-compose --env-file ./.env.local up -d`
 
-**Your symfony project is no available and running on `http://localhost` url (`http://127.0.0.1`)!**
+**Your symfony project is now available and running on `http://localhost` url (`http://127.0.0.1`)!**
 
 ## Use containers
 
